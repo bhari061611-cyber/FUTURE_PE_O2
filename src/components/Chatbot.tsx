@@ -10,17 +10,17 @@ interface Message {
 const initialMessages: Message[] = [
   {
     role: "assistant",
-    content: "Hi! I'm Kasthuri's AI assistant. I can answer questions about skills, projects, experience, and how to get in touch. How can I help you today?",
+    content: "Hi! I'm Hari's AI assistant. I can answer questions about skills, projects, experience, and how to get in touch. How can I help you today?",
   },
 ];
 
 const quickResponses: Record<string, string> = {
-  skills: "Kasthuri specializes in Prompt Engineering, Machine Learning, NLP, Python Programming, Deep Learning, Model Fine-Tuning, AI Automation, and Data Analysis. These skills are applied to create intelligent, real-world solutions.",
-  projects: "Kasthuri has worked on notable projects including an AI Portfolio Website (this one!) featuring smooth animations and AI integration, and an AI Chatbot Assistant that understands context and provides helpful responses using advanced language models.",
-  experience: "As an AI & Prompt Engineering Intern, Kasthuri focuses on crafting effective prompts for AI models, building ML solutions, and automating workflows. Currently seeking internship opportunities to apply these skills in real-world projects.",
-  contact: "You can reach out through the Contact section above! Kasthuri is open to internship opportunities, freelance projects, and collaborations. Just fill out the form with your message.",
-  hello: "Hello! Great to meet you. I'm here to help you learn more about Kasthuri Eswar's skills, projects, and how to connect. What would you like to know?",
-  hi: "Hi there! How can I help you today? Feel free to ask about Kasthuri's skills, projects, or how to get in touch.",
+  skills: "Hari specializes in Prompt Engineering, Machine Learning, NLP, Python Programming, Deep Learning, Model Fine-Tuning, AI Automation, and Data Analysis. These skills are applied to create intelligent, real-world solutions.",
+  projects: "Hari has worked on notable projects including an AI Portfolio Website (this one!) featuring smooth animations and AI integration, and an AI Chatbot Assistant that understands context and provides helpful responses using advanced language models.",
+  experience: "As an AI & Prompt Engineering Intern, Hari focuses on crafting effective prompts for AI models, building ML solutions, and automating workflows. Currently seeking internship opportunities to apply these skills in real-world projects.",
+  contact: "You can reach out through the Contact section above! Hari is open to internship opportunities, freelance projects, and collaborations. Just fill out the form with your message.",
+  hello: "Hello! Great to meet you. I'm here to help you learn more about Hari's skills, projects, and how to connect. What would you like to know?",
+  hi: "Hi there! How can I help you today? Feel free to ask about Hari's skills, projects, or how to get in touch.",
 };
 
 export const Chatbot = () => {
@@ -39,14 +39,14 @@ export const Chatbot = () => {
     }
 
     if (lowerMessage.includes("who") || lowerMessage.includes("about")) {
-      return "Kasthuri Eswar is an aspiring AI and Prompt Engineering professional with expertise in machine learning, NLP, and deep learning. Passionate about creating intelligent solutions that make a real-world impact. Currently seeking internship opportunities!";
+      return "Hari is an aspiring AI and Prompt Engineering professional with expertise in machine learning, NLP, and deep learning. Passionate about creating intelligent solutions that make a real-world impact. Currently seeking internship opportunities!";
     }
 
     if (lowerMessage.includes("hire") || lowerMessage.includes("work")) {
-      return "Kasthuri is actively looking for internship and freelance opportunities! You can reach out through the Contact section to discuss potential collaborations. Whether it's AI projects, prompt engineering, or ML solutions – let's connect!";
+      return "Hari is actively looking for internship and freelance opportunities! You can reach out through the Contact section to discuss potential collaborations. Whether it's AI projects, prompt engineering, or ML solutions – let's connect!";
     }
 
-    return "That's a great question! For more specific information about Kasthuri's work, feel free to explore the portfolio sections above or reach out directly through the Contact form. Is there anything specific about skills, projects, or experience I can help with?";
+    return "That's a great question! For more specific information about Hari's work, feel free to explore the portfolio sections above or reach out directly through the Contact form. Is there anything specific about skills, projects, or experience I can help with?";
   };
 
   const handleSend = async () => {

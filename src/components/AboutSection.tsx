@@ -35,7 +35,7 @@ export const AboutSection = () => {
             {/* Left Column - Text */}
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm an aspiring <span className="text-foreground font-medium">AI and Prompt Engineering professional</span> with 
+                I'm <span className="text-foreground font-medium">Hari</span>, an aspiring <span className="text-foreground font-medium">AI and Prompt Engineering professional</span> with 
                 a strong foundation in machine learning, natural language processing, and deep learning. 
                 My journey in AI began with a curiosity to understand how machines can learn and adapt, 
                 and has evolved into a dedicated pursuit of creating intelligent systems.

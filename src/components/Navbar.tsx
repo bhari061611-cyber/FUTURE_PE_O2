@@ -49,7 +49,7 @@ export const Navbar = () => {
             }}
             className="font-display font-bold text-xl md:text-2xl text-gradient"
           >
-            KE
+            H
           </a>
 
           {/* Desktop Navigation */}
